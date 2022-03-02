@@ -7,16 +7,16 @@ public class NewBehaviourScript : MonoBehaviour
     
     private void Move()
     {
-        controller.Move(Vector3.right * direction * movementSpeed * Time.deltaTime);
+        //controller.Move(Vector3.right * direction * movementSpeed * Time.deltaTime);
 
-        verticalVel += gravity * Time.deltaTime;
+        //verticalVel += gravity * Time.deltaTime;
 
-        controller.Move(Vector3.up * verticalVel * Time.deltaTime);
+       // controller.Move(Vector3.up * verticalVel * Time.deltaTime);
     }
 
     void Jump()
     {
-        verticalVel = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        //verticalVel = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
     // Start is called before the first frame update
     void Start()
